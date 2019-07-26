@@ -4,20 +4,21 @@ egg framework for myself
 
 ## QuickStart
 
-update your package.json
+```bash
+npm i --save egg-wugs-framework
+```
+
+then update your package.json
 
 ```json
 {
     "egg": {
         "framework": "egg-wugs-framework"
-    },
-    "dependencies": {
-        "egg-wugs-framework": "egg-wugs-framework"
     }
 }
 ```
 
-then your can use these plugins without `npm i --save ...`
+so your can use these plugins without `npm i --save ...`
 
 ```json
 {
